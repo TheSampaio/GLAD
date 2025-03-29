@@ -1,11 +1,10 @@
-project "Graphics"
+project "GLAD"
     kind "StaticLib"
     language "C"
-    targetname "glad"
+    location "build"
 
-    targetdir "build/bin/%{cfg.buildcfg}"
-    objdir "build/obj/%{cfg.buildcfg}"
+    targetdir ("out/build/bin/%{cfg.buildcfg}/%{prj.name}")
+    objdir    ("out/build/obj/%{cfg.buildcfg}/%{prj.name}")
 
     includedirs { "include" }
-
     files { "source/glad.c" }

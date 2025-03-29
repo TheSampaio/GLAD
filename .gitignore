@@ -1,22 +1,10 @@
-*.pyc
-/*.xml
-*.kdev4
-build/
-*.o
-*.a
-a.out
-*.kdev_include_paths
-main.c
-*.diff
-*.swp
-.idea
-dist/
-*.egg-info
-/khrplatform.h
-/eglplatform.h
-/vk_platform.h
-/glad-rs/
-/rust/
-target/
-Cargo.lock
+# Directories
+.vs/
 .vscode/
+out/
+
+# Files
+*.filters
+*.sln
+*.user
+*.vcxproj
